@@ -1,4 +1,4 @@
-# Integet Linear Programming
+# Integer Linear Programming
 # Produces only 1 or 0 value
 # Max problems
 
