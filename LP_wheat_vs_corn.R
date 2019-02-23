@@ -36,7 +36,7 @@ objective.in %*% solution$solution %>%
   currency()
 
 #set x1 and x2 for the different equations to 0 and to solve to find their respective intercepts.
-plot(0,0, xlim = c(0,600), ylim = c(0,600), xlab = "Wheat", ylab = "Corn", main = "Wheat vsd Corn")
+plot(0,0, xlim = c(0,600), ylim = c(0,600), xlab = "Wheat", ylab = "Corn", main = "Wheat vs Corn")
 
 polygon(c(0,1000/3,0), c(500,0,0), col = "skyblue", density = 30)
 polygon(c(0,1200/2,0), c(1200/4,0,0), col = "red", density = 20)
