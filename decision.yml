@@ -1,0 +1,33 @@
+name: ABC Company
+type: decision
+Develop:
+    type: chance
+    Success:
+        type: chance
+        p: 0.7
+        High demand:
+            type: terminal
+            p: 0.2
+            payoff: 60000
+        Medium demand:
+            type: terminal
+            p: 0.5
+            payoff: 40000
+        Low demand:
+            type: terminal
+            p: 0.3
+            payoff: 20000
+    Failure:
+        type: chance
+        p: 0.3
+        Sell the work:
+            type: terminal
+            p: 0.6
+            payoff: -35000
+        Worth nothing:
+            type: terminal
+            p: 0.4
+            payoff: -40000
+Do not develop:
+    type: terminal
+    payoff: 0
